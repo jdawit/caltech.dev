@@ -30,7 +30,8 @@ function App() {
               Made with ❤️ by{" "}
               <Hyperlink href="https://github.com/rchalamala" text="Rahul" />,{" "}
               <Hyperlink href="https://github.com/ericlovesmath" text="Eric" />,
-              & <Hyperlink href="https://github.com/zack466" text="Zack" />
+              <Hyperlink href="https://github.com/zack466" text="Zack" />,
+              & Claude
             </p>
             <p className="text-center">Current term: {realPath.substring(1)}</p>
           </footer>
