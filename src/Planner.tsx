@@ -149,7 +149,8 @@ function ScheduleCalendar({ calEvents }: { calEvents: DateData[] }) {
     },
     weekOptions: {
       nDays: hasWeekendCourse ? 7 : 5,
-      gridHeight: 36 * (maxHour - minHour),
+      // px per hour; tall enough for a 55-minute class to show title + time
+      gridHeight: 60 * (maxHour - minHour),
       eventOverlap: false,
     },
     calendars,

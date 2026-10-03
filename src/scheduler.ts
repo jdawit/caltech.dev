@@ -22,6 +22,12 @@ function canonicalSection(
   return byNumber.get(courseData.sections[sectionId].number)!;
 }
 
+/** Compare by time of day only: section times are anchored to a week in 2018,
+ * the allowed time range to a week in 2025. */
+function minuteOfDay(date: Date): number {
+  return date.getHours() * 60 + date.getMinutes();
+}
+
 function sectionsIntersect(a: CourseStorage, b: CourseStorage): boolean {
   if (!a.enabled || !b.enabled) {
     return false;
@@ -76,7 +82,9 @@ export function generateCourseSections(
     }
 
     for (let i = 0; i < arr.length; i++) {
-      if (arr[i].sectionId === null) {
+      // locked courses keep their section no matter what (see help text),
+      // so they don't have to fit the allowed time range
+      if (arr[i].sectionId === null || arr[i].locked || !arr[i].enabled) {
         continue;
       }
       const section = canonicalSection(arr[i].courseData, arr[i].sectionId!);
@@ -84,8 +92,8 @@ export function generateCourseSections(
       for (let j = 0; j < 5; j++) {
         for (const interval of intervals[j]) {
           valid &&=
-            availableTimes[j][0].getTime() <= interval!.start.getTime() &&
-            interval!.end.getTime() <= availableTimes[j][1].getTime();
+            minuteOfDay(availableTimes[j][0]) <= minuteOfDay(interval!.start) &&
+            minuteOfDay(interval!.end) <= minuteOfDay(availableTimes[j][1]);
         }
       }
     }
