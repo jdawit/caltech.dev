@@ -12,6 +12,14 @@
   display: none;
 }
 
+/* the calendar remounts whenever courses change, which replays Schedule-X's
+   slide-in (opacity + blur + translate) on every add/remove; keep it static */
+.sx__calendar-wrapper .sx__slide-left,
+.sx__calendar-wrapper .sx__slide-right,
+.sx__calendar-wrapper .sx__time-grid-event.is-event-new {
+  animation: none;
+}
+
 .planner-time-input {
   border: 1px solid lightgrey;
   border-radius: 4px;
