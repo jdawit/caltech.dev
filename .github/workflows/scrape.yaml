@@ -1,0 +1,52 @@
+name: scrape catalog
+
+on:
+  schedule:
+    - cron: "0 14 * * 1" # Mondays 14:00 UTC (6-7am Pacific)
+  workflow_dispatch:
+    inputs:
+      term:
+        description: "Registrar term, e.g. FA2026-27 (default: the app's CURRENT_TERM)"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Pick term
+        id: term
+        env:
+          INPUT_TERM: ${{ inputs.term }}
+        run: |
+          if [ -n "$INPUT_TERM" ]; then
+            term="$INPUT_TERM"
+          else
+            # "/fa2027" -> "FA2026-27"
+            cur=$(grep -oE 'CURRENT_TERM = "/[a-z]{2}[0-9]{4}"' src/courseData.ts | grep -oE '[a-z]{2}[0-9]{4}')
+            season=$(echo "${cur:0:2}" | tr a-z A-Z)
+            year=${cur:2:4}
+            term="${season}$((year - 1))-${year:2:2}"
+          fi
+          echo "term=$term" >> "$GITHUB_OUTPUT"
+          echo "Scraping $term"
+
+      - run: node scripts/scrape-schedule.mjs "${{ steps.term.outputs.term }}"
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then
+            echo "No catalog changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898183+github-actions[bot]@users.noreply.github.com"
+          git commit -am "update ${{ steps.term.outputs.term }} catalog from registrar"
+          git push

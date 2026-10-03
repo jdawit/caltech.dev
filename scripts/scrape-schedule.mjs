@@ -217,9 +217,22 @@ function newId(number) {
   return h >>> 1 || 1;
 }
 
+const parsed = parseCourses(layoutLines(html));
+
+// Guard for unattended runs: if the page layout changes, the parser finds few
+// or no courses. Refuse to overwrite good data with that.
+const oldCount = Object.keys(existing).length;
+if (parsed.length === 0 || parsed.length < oldCount * 0.7) {
+  console.error(
+    `parsed only ${parsed.length} course rows (existing file has ${oldCount}); ` +
+      "page layout may have changed, not writing",
+  );
+  process.exit(1);
+}
+
 const out = {};
 const counts = { updated: 0, added: 0 };
-for (const c of parseCourses(layoutLines(html))) {
+for (const c of parsed) {
   // Cross-listed courses appear under every department; keep the first.
   if (Object.values(out).some((o) => o.number === c.number)) continue;
 

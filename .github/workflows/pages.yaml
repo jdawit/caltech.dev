@@ -1,0 +1,51 @@
+name: deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # pushes made by the scrape workflow's token don't trigger `push`, so
+  # redeploy whenever it finishes
+  workflow_run:
+    workflows: ["scrape catalog"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/
+      - name: Prepare for Pages
+        run: |
+          # serve the app for every path (/<repo>/wi2026 etc.); the app routes itself
+          cp dist/index.html dist/404.html
+          # CNAME would claim the upstream's caltech.dev domain
+          rm -f dist/CNAME
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

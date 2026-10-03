@@ -5,6 +5,8 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
+  // "/" for a root deploy (caltech.dev); "/<repo>/" for GitHub Pages project sites
+  base: process.env.BASE_PATH ?? "/",
   plugins: [react(), svgr(), tsconfigPaths(), tailwindcss()],
   build: {
     sourcemap: true,

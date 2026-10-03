@@ -1,3 +1,5 @@
+/// <reference types="vite/client" />
+
 type Maybe<T> = T | null;
 
 interface CourseStorage {

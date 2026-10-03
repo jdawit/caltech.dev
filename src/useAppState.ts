@@ -59,7 +59,9 @@ export function useAppState(): {
   appStateValue: AppStateProps;
 } {
   // really basic routing
-  const pathname = useReactPath();
+  // strip the deploy base ("/caltech.dev" on GitHub Pages) so terms read as "/fa2027"
+  const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+  const pathname = useReactPath().slice(base.length) || "/";
   const realPath = pathname === "/" ? CURRENT_TERM : pathname;
   const [indexedCourses, setIndexedCourses] = useState<CourseIndex>(
     () => getCachedCourseIndex(realPath) ?? {},
