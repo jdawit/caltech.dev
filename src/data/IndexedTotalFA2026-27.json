@@ -1204,6 +1204,31 @@
     "true_units": "About Right",
     "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=61&term_id=566&division_id=80425&department_id=595&offering_id=98248&track_id=98248-Default"
   },
+  "177107817": {
+    "id": 177107817,
+    "name": "Senior Thesis",
+    "number": "MS 78 b",
+    "sections": [
+      {
+        "grades": "LETTER",
+        "instructor": "Scherer, A",
+        "locations": "",
+        "number": 1,
+        "times": "A"
+      }
+    ],
+    "comment": "",
+    "units": [
+      0,
+      0,
+      0
+    ],
+    "description": "",
+    "prerequisites": "",
+    "rating": "",
+    "true_units": "",
+    "link": ""
+  },
   "179955456": {
     "id": 179955456,
     "name": "Waves in Geophysical Fluids",
@@ -5742,6 +5767,13 @@
       },
       {
         "grades": "PASS-FAIL",
+        "instructor": "Mayo, S",
+        "locations": "",
+        "number": 15,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
         "instructor": "Atwater, H",
         "locations": "",
         "number": 33,
@@ -7575,6 +7607,13 @@
         "instructor": "Chung, S",
         "locations": "",
         "number": 54,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Gao, W",
+        "locations": "",
+        "number": 55,
         "times": "A"
       }
     ],
@@ -13584,9 +13623,9 @@
       {
         "grades": "",
         "instructor": "Wang, P",
-        "locations": "125 BAX",
+        "locations": "125 BAX\n127 BAX",
         "number": 1,
-        "times": "OM,M 14:30 - 15:25"
+        "times": "OM,M 14:30 - 15:25\nMT 14:30 - 15:55"
       }
     ],
     "comment": "",
@@ -13905,6 +13944,13 @@
         "instructor": "Yeh, N",
         "locations": "",
         "number": 16,
+        "times": "A"
+      },
+      {
+        "grades": "",
+        "instructor": "Bernardi, M",
+        "locations": "",
+        "number": 17,
         "times": "A"
       }
     ],
@@ -15291,13 +15337,13 @@
     "sections": [
       {
         "grades": "PASS-FAIL",
-        "instructor": "Papucci, M",
+        "instructor": "Staff",
         "locations": "103 DWN",
         "number": 1,
         "times": "MW 09:00 - 10:30"
       }
     ],
-    "comment": "",
+    "comment": "Course cancelled",
     "units": [
       3,
       0,
@@ -15666,6 +15712,13 @@
         "locations": "",
         "number": 21,
         "times": "A"
+      },
+      {
+        "grades": "LETTER",
+        "instructor": "Minnich, A",
+        "locations": "",
+        "number": 22,
+        "times": "A"
       }
     ],
     "comment": "",
@@ -15713,9 +15766,9 @@
       {
         "grades": "",
         "instructor": "Heinaevaara, O",
-        "locations": "187 LINDE",
+        "locations": "387 LINDE",
         "number": 1,
-        "times": "TR 10:30 - 11:55"
+        "times": "TR 13:00 - 14:25"
       }
     ],
     "comment": "",
@@ -18991,7 +19044,7 @@
       {
         "grades": "",
         "instructor": "Shan, S",
-        "locations": "147 NYS",
+        "locations": "210 RSC",
         "number": 1,
         "times": "TR 10:30 - 11:55"
       }
@@ -19626,6 +19679,13 @@
         "instructor": "Ng, N",
         "locations": "",
         "number": 30,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Bae, H",
+        "locations": "",
+        "number": 31,
         "times": "A"
       },
       {
@@ -25497,9 +25557,9 @@
       {
         "grades": "PASS-FAIL",
         "instructor": "Gherman, M",
-        "locations": "310 LINDE",
+        "locations": "310 LINDE\n387 LINDE",
         "number": 1,
-        "times": "TR 19:30 - 20:55"
+        "times": "R 19:30 - 20:55\nT 19:30 - 20:55"
       }
     ],
     "comment": "",
@@ -25949,7 +26009,7 @@
         "instructor": "Ascencio, L",
         "locations": "BAC",
         "number": 1,
-        "times": "F 09:00 - 12:00"
+        "times": "F 09:00 - 11:55"
       }
     ],
     "comment": "maximum enrollment: 20 students // Graduate students may not enroll until Add Day",
@@ -25999,6 +26059,13 @@
         "instructor": "Shaikeea, A",
         "locations": "",
         "number": 1,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Humml, J",
+        "locations": "",
+        "number": 2,
         "times": "A"
       },
       {
