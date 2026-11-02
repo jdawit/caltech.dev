@@ -914,7 +914,7 @@
       {
         "grades": "",
         "instructor": "Tyle, S",
-        "locations": "B133 BAX",
+        "locations": "127 BAX",
         "number": 1,
         "times": "WF 14:30 - 15:55"
       }
@@ -3618,6 +3618,13 @@
         "locations": "",
         "number": 62,
         "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Thomson, M",
+        "locations": "",
+        "number": 63,
+        "times": "A"
       }
     ],
     "comment": "",
@@ -5343,6 +5350,13 @@
         "locations": "",
         "number": 37,
         "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Bringmann, B",
+        "locations": "",
+        "number": 38,
+        "times": "A"
       }
     ],
     "comment": "",
@@ -5619,6 +5633,13 @@
         "instructor": "Rangel, A",
         "locations": "",
         "number": 37,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Bringmann, B",
+        "locations": "",
+        "number": 38,
         "times": "A"
       }
     ],
@@ -7229,6 +7250,13 @@
         "locations": "",
         "number": 62,
         "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Thomson, M",
+        "locations": "",
+        "number": 63,
+        "times": "A"
       }
     ],
     "comment": "",
@@ -8546,6 +8574,13 @@
         "locations": "",
         "number": 62,
         "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Thomson, M",
+        "locations": "",
+        "number": 63,
+        "times": "A"
       }
     ],
     "comment": "",
@@ -9796,6 +9831,13 @@
         "instructor": "Rosenthal, J",
         "locations": "",
         "number": 1,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Cvitanic, J",
+        "locations": "",
+        "number": 2,
         "times": "A"
       }
     ],
@@ -13485,6 +13527,13 @@
         "locations": "",
         "number": 37,
         "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Bringmann, B",
+        "locations": "",
+        "number": 38,
+        "times": "A"
       }
     ],
     "comment": "",
@@ -15138,6 +15187,31 @@
     "rating": "4.92 +/- 0.28",
     "true_units": "About Right",
     "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=61&term_id=566&division_id=80423&department_id=535&offering_id=98585&track_id=98585-Default"
+  },
+  "566381454": {
+    "id": 566381454,
+    "name": "Art/Media",
+    "number": "VC 60",
+    "sections": [
+      {
+        "grades": "",
+        "instructor": "Mushkin, H",
+        "locations": "",
+        "number": 1,
+        "times": "A"
+      }
+    ],
+    "comment": "",
+    "units": [
+      3,
+      0,
+      3
+    ],
+    "description": "",
+    "prerequisites": "",
+    "rating": "",
+    "true_units": "",
+    "link": ""
   },
   "566510925": {
     "id": 566510925,
@@ -17445,6 +17519,31 @@
     "rating": "3.93 +/- 0.95",
     "true_units": "About Right",
     "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=61&term_id=566&division_id=80425&department_id=124&offering_id=98167&track_id=98167-Default"
+  },
+  "608880117": {
+    "id": 608880117,
+    "name": "Reading in History",
+    "number": "H 60",
+    "sections": [
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Lewis, D",
+        "locations": "",
+        "number": 1,
+        "times": "A"
+      }
+    ],
+    "comment": "",
+    "units": [
+      0,
+      0,
+      0
+    ],
+    "description": "",
+    "prerequisites": "",
+    "rating": "",
+    "true_units": "",
+    "link": ""
   },
   "619581326": {
     "id": 619581326,
@@ -20076,6 +20175,13 @@
         "instructor": "Chung, S",
         "locations": "",
         "number": 1,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Ames, A",
+        "locations": "",
+        "number": 2,
         "times": "A"
       }
     ],
@@ -23143,6 +23249,13 @@
         "locations": "",
         "number": 37,
         "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Bringmann, B",
+        "locations": "",
+        "number": 38,
+        "times": "A"
       }
     ],
     "comment": "",
@@ -23545,6 +23658,13 @@
         "locations": "",
         "number": 37,
         "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Bringmann, B",
+        "locations": "",
+        "number": 38,
+        "times": "A"
       }
     ],
     "comment": "",
@@ -23941,6 +24061,13 @@
         "locations": "",
         "number": 55,
         "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Lois, C",
+        "locations": "",
+        "number": 56,
+        "times": "A"
       }
     ],
     "comment": "If your research advisor does not appear below, please contact the Office of the Registrar.",
@@ -24145,6 +24272,13 @@
         "instructor": "Chung, S",
         "locations": "",
         "number": 17,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Dickinson, M",
+        "locations": "",
+        "number": 18,
         "times": "A"
       }
     ],
@@ -25897,6 +26031,13 @@
         "instructor": "Mazmanian, S",
         "locations": "",
         "number": 1,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Siapas, A",
+        "locations": "",
+        "number": 2,
         "times": "A"
       }
     ],
