@@ -925,11 +925,11 @@
       0,
       6
     ],
-    "description": "",
-    "prerequisites": "",
-    "rating": "",
-    "true_units": "",
-    "link": ""
+    "description": "This course combines elements of business, economics, engineering, financial statement analysis, strategy, and law to provide students interested in entrepreneurship with a practical understanding of the mechanics of growing a 'post-idea' company. The class will explain how prospective investor’s view entrepreneurs and their ideas, teach students about types of capital, sources of capital, and term sheets, and generally delve into the timing and financial alternatives and trade-offs facing entrepreneurs seeking capital in order to launch or grow a company. As such, this class is a complement to BEM 110 (Venture Capital) and E 102 (Scientific and Technology Entrepreneurship).",
+    "prerequisites": "Ec 11, E 102, or equivalent.",
+    "rating": "4.74 +/- 0.64",
+    "true_units": "Somewhat Low",
+    "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=54&term_id=555&division_id=80427&department_id=165&offering_id=94630&track_id=94630-Default"
   },
   "152591022": {
     "id": 152591022,
@@ -1558,11 +1558,11 @@
       0,
       6
     ],
-    "description": "",
+    "description": "Content will vary from year to year, at a level suitable for advanced undergraduate or beginning graduate students. Topics will be chosen according to the interests of students and staff. Visiting faculty may present all or portions of this course from time to time.",
     "prerequisites": "Linear Algebra, Multivariable Calculus, Basic Optimization (gradient descent, convexity, etc.)",
-    "rating": "",
-    "true_units": "",
-    "link": ""
+    "rating": "4.67 +/- 0.79",
+    "true_units": "Noticeably High",
+    "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=55&term_id=556&division_id=80425&department_id=129&offering_id=95071&track_id=95071-Section 1"
   },
   "258422287": {
     "id": 258422287,
@@ -8939,11 +8939,11 @@
       0,
       0
     ],
-    "description": "",
-    "prerequisites": "",
-    "rating": "",
-    "true_units": "",
-    "link": ""
+    "description": "Each section covers a topic in computing with associated sets or projects. Sections are designed and taught by an undergraduate student under the supervision of a CMS faculty member. CS 12 may be repeated for credit of up to a total of nine units.",
+    "prerequisites": "CS 1 or instructor's permission.",
+    "rating": "4.60 +/- 0.61",
+    "true_units": "About Right",
+    "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=57&term_id=558&division_id=80425&department_id=117&offering_id=95260&track_id=95260-Default"
   },
   "267688663": {
     "id": 267688663,
@@ -12965,6 +12965,13 @@
       },
       {
         "grades": "PASS-FAIL",
+        "instructor": "Ismagilov, R",
+        "locations": "",
+        "number": 44,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
         "instructor": "Gkioxari, G",
         "locations": "",
         "number": 45,
@@ -13606,9 +13613,9 @@
       {
         "grades": "",
         "instructor": "Garcia, D",
-        "locations": "127 BAX\n127 BAX",
+        "locations": "127 BAX\n128 BAX\n128 BAX",
         "number": 1,
-        "times": "OM,M 19:00 - 19:55\nMWF 08:00 - 08:55"
+        "times": "OM,M 19:00 - 19:55\nM 18:00 - 18:55\nTF 12:00 - 12:55"
       }
     ],
     "comment": "L 112 abc or equivalent.",
@@ -14971,9 +14978,9 @@
       {
         "grades": "",
         "instructor": "Garcia, D",
-        "locations": "127 BAX\n127 BAX",
+        "locations": "127 BAX\n128 BAX\n128 BAX",
         "number": 1,
-        "times": "OM,M 19:00 - 19:55\nMWF 08:00 - 08:55"
+        "times": "OM,M 19:00 - 19:55\nM 18:00 - 18:55\nTF 12:00 - 12:55"
       }
     ],
     "comment": "L 112 abc or equivalent.",
@@ -15207,7 +15214,7 @@
       0,
       3
     ],
-    "description": "",
+    "description": "A practice-based course taught by a visiting artist in residence. See registrar's announcement for details.",
     "prerequisites": "",
     "rating": "",
     "true_units": "",
@@ -16524,7 +16531,7 @@
       0
     ],
     "description": "Biological processes take place at length scales ranging from that of individual protein molecules all the way to the algal blooms or rainforests that can be seen from space and over a dizzying nearly 30 orders of magnitude in time scales.  This course will start by examining the biology of processes such as how plants and animals colonize oceanic islands and the physics of how animals such as wildebeest form giant herds during their year-long migration.  With these wonders of the living world revealed, we will then seek to understand biological phenomena by thinking about genes and cells. May be taken pass/fail if taken in a first-year student's first year.",
-    "prerequisites": "",
+    "prerequisites": "concurrent enrollment in other integrated core classes and instructor permission.",
     "rating": "4.34 +/- 0.75",
     "true_units": "About Right",
     "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=61&term_id=566&division_id=143798&department_id=716&offering_id=98748&track_id=98748-Default"
@@ -16561,7 +16568,7 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Staff",
+        "instructor": "Gkioxari, G",
         "locations": "",
         "number": 1,
         "times": "A"
@@ -17539,7 +17546,7 @@
       0,
       0
     ],
-    "description": "",
+    "description": "Reading in history and related subjects, done either in connection with the regular courses or independently, but under the direction of members of the department. A brief written report will usually be required. Graded pass/fail. Not available for credit toward humanities-social science requirement.",
     "prerequisites": "",
     "rating": "",
     "true_units": "",
@@ -20406,7 +20413,7 @@
       3
     ],
     "description": "Students will learn to use an Arduino microcontroller to interface sensing and actuation hardware with the computer. Students will learn and practice engineering design principles through a set of projects where they design and implement biosensing systems. Examples include a pulse monitor, a pulse oximeter, and a real-time polymerase-chain-reaction incubator.  Enrollment is limited based on laboratory capacity.",
-    "prerequisites": "",
+    "prerequisites": "BE/EE/MedE 189 a must be taken before BE/EE/MedE 189 b.",
     "rating": "3.88 +/- 1.21",
     "true_units": "About Right",
     "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=61&term_id=566&division_id=80423&department_id=575&offering_id=97937&track_id=97937-Default"
@@ -22343,9 +22350,380 @@
     "sections": [
       {
         "grades": "PASS-FAIL",
-        "instructor": "Staff",
+        "instructor": "Blank, A",
         "locations": "",
         "number": 1,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Ordentlich, E",
+        "locations": "",
+        "number": 2,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Chandy, K",
+        "locations": "",
+        "number": 3,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Murray, R",
+        "locations": "",
+        "number": 4,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Martin, A",
+        "locations": "",
+        "number": 5,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Winfree, E",
+        "locations": "",
+        "number": 6,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Perona, P",
+        "locations": "",
+        "number": 7,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Pinkston, D",
+        "locations": "",
+        "number": 8,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Pierce, N",
+        "locations": "",
+        "number": 9,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Vanier, M",
+        "locations": "",
+        "number": 10,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Wierman, A",
+        "locations": "",
+        "number": 11,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Umans, C",
+        "locations": "",
+        "number": 12,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Burdick, J",
+        "locations": "",
+        "number": 13,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Low, S",
+        "locations": "",
+        "number": 14,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Yue, Y",
+        "locations": "",
+        "number": 15,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Hassibi, B",
+        "locations": "",
+        "number": 16,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Gharib, M",
+        "locations": "",
+        "number": 17,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Mahabal, A",
+        "locations": "",
+        "number": 18,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Schroeder, P",
+        "locations": "",
+        "number": 19,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Djorgovski, S",
+        "locations": "",
+        "number": 20,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "George, G",
+        "locations": "",
+        "number": 21,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Vidick, T",
+        "locations": "",
+        "number": 22,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Ralph, C",
+        "locations": "",
+        "number": 23,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Rangel, A",
+        "locations": "",
+        "number": 24,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Bunn, J",
+        "locations": "",
+        "number": 25,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Alvarez, R",
+        "locations": "",
+        "number": 26,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Preskill, J",
+        "locations": "",
+        "number": 27,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Eberhardt, F",
+        "locations": "",
+        "number": 28,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Ames, A",
+        "locations": "",
+        "number": 29,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Abu-Mostafa, Y",
+        "locations": "",
+        "number": 30,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Chung, S",
+        "locations": "",
+        "number": 31,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Anandkumar, A",
+        "locations": "",
+        "number": 32,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Tamuz, O",
+        "locations": "",
+        "number": 33,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Bouman, K",
+        "locations": "",
+        "number": 34,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Van Valen, D",
+        "locations": "",
+        "number": 35,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Schulman, L",
+        "locations": "",
+        "number": 36,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Adolphs, R",
+        "locations": "",
+        "number": 37,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Bruno, O",
+        "locations": "",
+        "number": 38,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Qian, L",
+        "locations": "",
+        "number": 39,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Parker, J",
+        "locations": "",
+        "number": 40,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Wu, K",
+        "locations": "",
+        "number": 41,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Shapiro, M",
+        "locations": "",
+        "number": 42,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Baptista, R",
+        "locations": "",
+        "number": 43,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Ismagilov, R",
+        "locations": "",
+        "number": 44,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Gkioxari, G",
+        "locations": "",
+        "number": 45,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Katz, J",
+        "locations": "",
+        "number": 46,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Rutishauser, U",
+        "locations": "",
+        "number": 48,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Lombeyda, S / Mushkin, H",
+        "locations": "",
+        "number": 49,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Mazumdar, E",
+        "locations": "",
+        "number": 50,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Pachter, L",
+        "locations": "",
+        "number": 51,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Meister, M",
+        "locations": "",
+        "number": 52,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Ehrenkranz, J",
+        "locations": "",
+        "number": 53,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Lin, L",
+        "locations": "",
+        "number": 54,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Barr, A",
+        "locations": "",
+        "number": 55,
         "times": "A"
       }
     ],
@@ -25765,11 +26143,11 @@
       0,
       6
     ],
-    "description": "",
+    "description": "Advanced topics in optimization-based design of control, optimal control, and estimation/filtering. Optimal control theory using calculus of variations, Hamilton-Jacobi-Bellman equation, Pontryagin's maximum principle, and optimal control applications including reinforcement learning and model predictive control. Kalman filtering, Bayesian filtering, and nonlinear filtering methods for autonomous systems.",
     "prerequisites": "CDS 110 (or equivalent) and CDS 131",
-    "rating": "",
-    "true_units": "",
-    "link": ""
+    "rating": "4.34 +/- 0.68",
+    "true_units": "About Right",
+    "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=59&term_id=560&division_id=80425&department_id=127&offering_id=96707&track_id=96707-Default"
   },
   "933089969": {
     "id": 933089969,
@@ -25965,11 +26343,11 @@
       0,
       6
     ],
-    "description": "",
-    "prerequisites": "",
-    "rating": "",
-    "true_units": "",
-    "link": ""
+    "description": "Fundamentals of Classical Thermodynamics. Basic laws of thermodynamics, work and heat, entropy and available work, and thermal systems. Equations of state, compressibility functions, and the Law of Corresponding States. Thermodynamic potentials, phase equilibrium, phase transitions, and thermodynamic properties of solids, liquids, and gases. Examples will be drawn from fluid dynamics, solid mechanics, energy systems, and thermal-science applications.",
+    "prerequisites": "ME 11 abc, ME 12 abc, or equivalent.",
+    "rating": "5.00 +/- 0.00",
+    "true_units": "About Right",
+    "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=53&term_id=554&division_id=80425&department_id=120&offering_id=92985&track_id=92985-Default"
   },
   "1741271001": {
     "id": 1741271001,

@@ -1,4 +1,4 @@
-export const CURRENT_TERM = "/fa2027";
+export const CURRENT_TERM = "/wi2027";
 
 const courseDataLoaders: {
   [key: string]: () => Promise<{ default: CourseIndex }>;
@@ -16,6 +16,7 @@ const courseDataLoaders: {
   "/wi2026": () => import("./data/IndexedTotalWI2025-26.json"),
   "/sp2026": () => import("./data/IndexedTotalSP2025-26.json"),
   "/fa2027": () => import("./data/IndexedTotalFA2026-27.json"),
+  "/wi2027": () => import("./data/IndexedTotalWI2026-27.json"),
 };
 
 const courseIndexCache: { [key: string]: CourseIndex } = {};

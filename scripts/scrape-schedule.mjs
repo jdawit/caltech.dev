@@ -7,9 +7,11 @@
 // Schedule fields (sections, times, locations, instructors, units, notes) come
 // from the registrar page. Fields the page doesn't have (description, TQFR
 // rating/link, ...) and course ids are carried over from the existing JSON so
-// saved workspaces and enrichment data survive a refresh.
+// saved workspaces and enrichment data survive a refresh. Where the term has
+// no such data yet (e.g. a brand-new term), it's filled from the most recent
+// other term that offered the same course.
 
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 
 const [term, localFile] = process.argv.slice(2);
 if (!/^(FA|WI|SP)\d{4}-\d{2}$/.test(term ?? "")) {
@@ -25,11 +27,22 @@ const outPath = new URL(
 
 const html = localFile
   ? readFileSync(localFile, "latin1")
-  : await (async () => {
-      const res = await fetch(`https://schedules.caltech.edu/${term}.html`);
-      if (!res.ok) throw new Error(`fetch failed: ${res.status}`);
-      return res.text();
-    })();
+  : await fetchWithRetry(`https://schedules.caltech.edu/${term}.html`);
+
+// The registrar's server occasionally times out; retry before giving up.
+async function fetchWithRetry(url, attempts = 3) {
+  for (let i = 1; ; i++) {
+    try {
+      const res = await fetch(url, { signal: AbortSignal.timeout(60_000) });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.text();
+    } catch (err) {
+      if (i >= attempts) throw new Error(`fetch ${url} failed: ${err.message}`);
+      console.warn(`attempt ${i} failed (${err.message}); retrying`);
+      await new Promise((r) => setTimeout(r, 30_000 * i));
+    }
+  }
+}
 
 // ---------------------------------------------------------------------------
 // 1. Layout -> lines of positioned text.
@@ -210,6 +223,20 @@ const existing = existsSync(outPath)
   : {};
 const byNumber = new Map(Object.values(existing).map((c) => [c.number, c]));
 
+// Course number -> that course in the most recent *other* term's file, used to
+// fill description/TQFR fields this term doesn't have yet.
+const SEASON_ORDER = { FA: 0, WI: 1, SP: 2 };
+const dataDir = new URL("../src/data/", import.meta.url);
+const otherTerms = readdirSync(dataDir)
+  .map((f) => f.match(/^IndexedTotal((FA|WI|SP)(\d{4})-\d{2})\.json$/))
+  .filter((m) => m && m[1] !== term)
+  .sort((a, b) => a[3] - b[3] || SEASON_ORDER[a[2]] - SEASON_ORDER[b[2]]);
+const previous = new Map();
+for (const m of otherTerms) {
+  const data = JSON.parse(readFileSync(new URL(m[0], dataDir), "utf8"));
+  for (const c of Object.values(data)) previous.set(c.number, c); // later wins
+}
+
 // Deterministic id for courses we haven't seen before (FNV-1a, 31-bit).
 function newId(number) {
   let h = 0x811c9dc5;
@@ -231,15 +258,19 @@ if (parsed.length === 0 || parsed.length < oldCount * 0.7) {
 }
 
 const out = {};
-const counts = { updated: 0, added: 0 };
+const counts = { updated: 0, added: 0, filled: 0 };
 for (const c of parsed) {
   // Cross-listed courses appear under every department; keep the first.
   if (Object.values(out).some((o) => o.number === c.number)) continue;
 
   const old = byNumber.get(c.number);
+  const prev = previous.get(c.number);
+  // this term's value if it has one, else the most recent past offering's
+  const carry = (field) => old?.[field] || prev?.[field] || "";
   const comment = c.notes.join(" ");
   const id = old?.id ?? newId(c.number);
   counts[old ? "updated" : "added"]++;
+  if (!old?.description && prev?.description) counts.filled++;
   out[id] = {
     id,
     name: c.name,
@@ -254,12 +285,15 @@ for (const c of parsed) {
     })),
     comment,
     units: c.units,
-    description: old?.description ?? "",
+    description: carry("description"),
     prerequisites:
-      old?.prerequisites ?? comment.match(/Prerequisites?:\s*(.*)/i)?.[1] ?? "",
-    rating: old?.rating ?? "",
-    true_units: old?.true_units ?? "",
-    link: old?.link ?? "",
+      old?.prerequisites ||
+      comment.match(/Prerequisites?:\s*(.*)/i)?.[1] ||
+      prev?.prerequisites ||
+      "",
+    rating: carry("rating"),
+    true_units: carry("true_units"),
+    link: carry("link"),
   };
 }
 
@@ -269,6 +303,7 @@ const dropped = [...byNumber.keys()].filter(
 writeFileSync(outPath, JSON.stringify(out, null, 2) + "\n");
 console.log(
   `${term}: ${Object.keys(out).length} courses ` +
-    `(${counts.updated} updated, ${counts.added} new, ${dropped.length} dropped)`,
+    `(${counts.updated} updated, ${counts.added} new, ${dropped.length} dropped; ` +
+    `${counts.filled} descriptions filled from past terms)`,
 );
 if (dropped.length) console.log(`dropped: ${dropped.join(", ")}`);

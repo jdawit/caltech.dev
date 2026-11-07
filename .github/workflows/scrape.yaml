@@ -2,11 +2,11 @@ name: scrape catalog
 
 on:
   schedule:
-    - cron: "0 14 * * 1" # Mondays 14:00 UTC (6-7am Pacific)
+    - cron: "0 14 * * *" # daily 14:00 UTC (6-7am Pacific)
   workflow_dispatch:
     inputs:
-      term:
-        description: "Registrar term, e.g. FA2026-27 (default: the app's CURRENT_TERM)"
+      terms:
+        description: "Registrar terms, space-separated, e.g. WI2026-27 (default: the two newest terms in src/courseData.ts)"
         required: false
 
 permissions:
@@ -21,32 +21,41 @@ jobs:
         with:
           node-version: 24
 
-      - name: Pick term
-        id: term
+      - name: Pick terms
+        id: terms
         env:
-          INPUT_TERM: ${{ inputs.term }}
+          INPUT_TERMS: ${{ inputs.terms }}
         run: |
-          if [ -n "$INPUT_TERM" ]; then
-            term="$INPUT_TERM"
+          if [ -n "$INPUT_TERMS" ]; then
+            terms="$INPUT_TERMS"
           else
-            # "/fa2027" -> "FA2026-27"
-            cur=$(grep -oE 'CURRENT_TERM = "/[a-z]{2}[0-9]{4}"' src/courseData.ts | grep -oE '[a-z]{2}[0-9]{4}')
-            season=$(echo "${cur:0:2}" | tr a-z A-Z)
-            year=${cur:2:4}
-            term="${season}$((year - 1))-${year:2:2}"
+            # the newest term is still being registered for, and the one
+            # before it is in session, so both can still change
+            terms=$(grep -oE 'IndexedTotal(FA|WI|SP)[0-9]{4}-[0-9]{2}' src/courseData.ts \
+              | sed 's/IndexedTotal//' | tail -2 | tr '\n' ' ')
           fi
-          echo "term=$term" >> "$GITHUB_OUTPUT"
-          echo "Scraping $term"
+          echo "terms=$terms" >> "$GITHUB_OUTPUT"
+          echo "Scraping: $terms"
 
-      - run: node scripts/scrape-schedule.mjs "${{ steps.term.outputs.term }}"
+      - name: Scrape
+        run: |
+          failed=0
+          for term in ${{ steps.terms.outputs.terms }}; do
+            # keep going if one term fails so the others still update
+            node scripts/scrape-schedule.mjs "$term" || failed=1
+          done
+          exit $failed
 
       - name: Commit if changed
+        # commit whatever did update even if one term failed
+        if: ${{ !cancelled() }}
         run: |
           if git diff --quiet; then
             echo "No catalog changes."
             exit 0
           fi
+          changed=$(git diff --name-only | grep -oE '(FA|WI|SP)[0-9]{4}-[0-9]{2}' | tr '\n' ' ')
           git config user.name "github-actions[bot]"
           git config user.email "41898183+github-actions[bot]@users.noreply.github.com"
-          git commit -am "update ${{ steps.term.outputs.term }} catalog from registrar"
+          git commit -am "update ${changed% } catalog from registrar"
           git push
