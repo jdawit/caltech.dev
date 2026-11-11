@@ -3781,13 +3781,13 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Staff",
+        "instructor": "Lewis, N",
         "locations": "216 NYS",
         "number": 1,
         "times": "TR 13:00 - 14:25"
       }
     ],
-    "comment": "Course Cancelled",
+    "comment": "",
     "units": [
       3,
       0,
@@ -3812,7 +3812,7 @@
         "times": "W 19:30 - 21:25"
       }
     ],
-    "comment": "",
+    "comment": "This will be the last term Prof. Kiewiet offers this class",
     "units": [
       3,
       0,
@@ -3856,13 +3856,13 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Lewis, N",
+        "instructor": "Staff",
         "locations": "216 NYS",
         "number": 1,
         "times": "TR 13:00 - 14:25"
       }
     ],
-    "comment": "",
+    "comment": "Course Cancelled",
     "units": [
       3,
       0,
@@ -10565,7 +10565,7 @@
         "times": "R 14:00 - 15:55\nTR 13:00 - 13:55\nT 14:00 - 15:55"
       }
     ],
-    "comment": "maximum enrollment: 8 students // enrollments are based on applications and invitations; no open signups will be available",
+    "comment": "Limited enrollment. Winter 2027 application due November 16, 2026: https://forms.gle/vTSHFKEhzRQK9uwE6",
     "units": [
       2,
       4,
