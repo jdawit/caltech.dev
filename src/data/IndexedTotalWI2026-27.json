@@ -2856,7 +2856,7 @@
         "instructor": "Tejada Lara, J / Kirschvink, J",
         "locations": "251 ARM\n251 ARM",
         "number": 1,
-        "times": "F 19:00 - 21:55\nMWF 14:00 - 14:55"
+        "times": "MWF 14:00 - 14:55\nTR 13:00 - 14:25"
       }
     ],
     "comment": "taught concurrently with Ge 104",
@@ -11376,6 +11376,56 @@
     "true_units": "",
     "link": ""
   },
+  "898541802": {
+    "id": 898541802,
+    "name": "Advanced Mathematical Methods of Physics",
+    "number": "Ph 229 a",
+    "sections": [
+      {
+        "grades": "",
+        "instructor": "Kapustin, A",
+        "locations": "469 LAU",
+        "number": 1,
+        "times": "TR 10:30 - 11:55"
+      }
+    ],
+    "comment": "",
+    "units": [
+      3,
+      0,
+      6
+    ],
+    "description": "Advanced topics in geometry and topology that are widely used in modern theoretical physics. Emphasis will be on understanding and applications more than on rigor and proofs. First term will cover basic concepts in topology and manifold theory. Second term will include Riemannian geometry, fiber bundles, characteristic classes, and index theorems. Third term will include anomalies in gauge-field theories and the theory of Riemann surfaces, with emphasis on applications to string theory. Part c will not be offered in 2022-23.",
+    "prerequisites": "Ph 129 abc or equivalent.",
+    "rating": "5.00 +/- 0.00",
+    "true_units": "3",
+    "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=45&term_id=546&division_id=80428&department_id=147&offering_id=87431&track_id=87431-Default"
+  },
+  "907377134": {
+    "id": 907377134,
+    "name": "Chemical Engineering Design Laboratory",
+    "number": "ChE 128",
+    "sections": [
+      {
+        "grades": "LETTER",
+        "instructor": "Vicic, M / Giapis, K",
+        "locations": "122 SPL\n102 SPL",
+        "number": 1,
+        "times": "WF 09:00 - 11:55\nM 12:00 - 12:55"
+      }
+    ],
+    "comment": "If unable to register, please contact instructor.",
+    "units": [
+      1,
+      6,
+      2
+    ],
+    "description": "Short-term, open-ended research projects targeting chemical processes and materials. Each student is required to design, construct, and troubleshoot her/his own process, then use chemical engineering principles to experimentally evaluate and optimize process metrics or material attributes. Where possible, cost analysis is performed.",
+    "prerequisites": "ChE 63 ab, ChE 101, ChE 103 abc, or instructor's permission.",
+    "rating": "4.47 +/- 0.50",
+    "true_units": "About Right",
+    "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=49&term_id=551&division_id=80424&department_id=116&offering_id=90136&track_id=90136-Default"
+  },
   "914494721": {
     "id": 914494721,
     "name": "Interactive Theorem Proving",
@@ -12300,7 +12350,7 @@
         "instructor": "Tejada Lara, J / Kirschvink, J",
         "locations": "251 ARM\n251 ARM",
         "number": 1,
-        "times": "F 19:00 - 21:55\nMWF 14:00 - 14:55"
+        "times": "MWF 14:00 - 14:55\nTR 13:00 - 14:25"
       }
     ],
     "comment": "taught concurrently with Ge 11b",
@@ -13643,13 +13693,13 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Meiron, D",
+        "instructor": "Staff",
         "locations": "",
         "number": 1,
         "times": "A"
       }
     ],
-    "comment": "",
+    "comment": "Course Cancelled",
     "units": [
       3,
       0,
@@ -15467,7 +15517,7 @@
     "sections": [
       {
         "grades": "LETTER",
-        "instructor": "Austin, J",
+        "instructor": "Shaikeea, A",
         "locations": "",
         "number": 1,
         "times": "A"
@@ -19557,7 +19607,7 @@
       {
         "grades": "",
         "instructor": "Polk, J",
-        "locations": "232 GUG",
+        "locations": "133 GUG",
         "number": 1,
         "times": "TR 13:00 - 14:25"
       }
@@ -21074,6 +21124,31 @@
     "rating": "5.00 +/- 0.00",
     "true_units": "Somewhat Low",
     "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=58&term_id=559&division_id=80423&department_id=153&offering_id=95922&track_id=95922-Section+2"
+  },
+  "1741271001": {
+    "id": 1741271001,
+    "name": "Senior Thesis",
+    "number": "CNS 99 b",
+    "sections": [
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Mazmanian, S",
+        "locations": "",
+        "number": 1,
+        "times": "A"
+      }
+    ],
+    "comment": "",
+    "units": [
+      0,
+      0,
+      0
+    ],
+    "description": "",
+    "prerequisites": "",
+    "rating": "",
+    "true_units": "",
+    "link": ""
   },
   "1741416109": {
     "id": 1741416109,
@@ -24140,10 +24215,10 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Colonius, T",
-        "locations": "115 GTL",
+        "instructor": "Meiron, D",
+        "locations": "390 FIR",
         "number": 1,
-        "times": "OM,M 16:00 - 16:55"
+        "times": "MWF 16:00 - 16:55"
       }
     ],
     "comment": "OM for Monday, January 5 at 4 PM in 115 Gates-Thomas",
