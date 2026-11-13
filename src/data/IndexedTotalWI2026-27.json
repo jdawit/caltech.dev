@@ -1957,10 +1957,10 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Staff",
-        "locations": "387 LINDE",
+        "instructor": "Zhao, R",
+        "locations": "310 LINDE",
         "number": 1,
-        "times": "MWF 09:00 - 09:55"
+        "times": "MWF 13:00 - 13:55"
       }
     ],
     "comment": "taught concurrently with Ma 105b",
@@ -4192,6 +4192,31 @@
     "true_units": "About Right",
     "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=57&term_id=558&division_id=80425&department_id=117&offering_id=95606&track_id=95606-Section 1"
   },
+  "267582343": {
+    "id": 267582343,
+    "name": "Student-Taught Topics in Computing: Introduction to Prototyping",
+    "number": "CS 12",
+    "sections": [
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Niemeyer, G",
+        "locations": "104 ANB",
+        "number": 9,
+        "times": "T 20:00 - 20:55"
+      }
+    ],
+    "comment": "OM, Tuesday, 1/5, 8:00-8:55PM, in 104 ANB",
+    "units": [
+      0,
+      0,
+      0
+    ],
+    "description": "Each section covers a topic in computing with associated sets or projects. Sections are designed and taught by an undergraduate student under the supervision of a CMS faculty member. CS 12 may be repeated for credit of up to a total of nine units.",
+    "prerequisites": "CS 1 or instructor's permission.",
+    "rating": "4.60 +/- 0.61",
+    "true_units": "About Right",
+    "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=57&term_id=558&division_id=80425&department_id=117&offering_id=95260&track_id=95260-Default"
+  },
   "272206467": {
     "id": 272206467,
     "name": "Cambridge Scholars Program",
@@ -5363,7 +5388,7 @@
       {
         "grades": "",
         "instructor": "De Sa Oliveira Sales, M",
-        "locations": "387 LINDE",
+        "locations": "310 LINDE",
         "number": 1,
         "times": "MWF 13:00 - 13:55"
       }
@@ -8485,7 +8510,7 @@
       {
         "grades": "PASS-FAIL",
         "instructor": "Gherman, M",
-        "locations": "255 LINDE",
+        "locations": "310 LINDE",
         "number": 3,
         "times": "MWF 10:00 - 10:55\nR 15:00 - 15:55"
       },
@@ -8633,10 +8658,10 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Staff",
-        "locations": "387 LINDE",
+        "instructor": "Zhao, R",
+        "locations": "310 LINDE",
         "number": 1,
-        "times": "MWF 09:00 - 09:55"
+        "times": "MWF 13:00 - 13:55"
       }
     ],
     "comment": "taught concurrently with Ma 5b",
@@ -13403,7 +13428,7 @@
         "instructor": "Phillips, R",
         "locations": "",
         "number": 1,
-        "times": "MW 14:00 - 14:55"
+        "times": "A"
       }
     ],
     "comment": "",
@@ -17537,7 +17562,7 @@
       {
         "grades": "",
         "instructor": "Most, E",
-        "locations": "107 DWN",
+        "locations": "310 LINDE",
         "number": 1,
         "times": "TR 10:30 - 11:55"
       }
@@ -18715,7 +18740,7 @@
         "instructor": "Wang, L",
         "locations": "142 KCK",
         "number": 1,
-        "times": "TR 14:30 - 16:15"
+        "times": "TF 14:30 - 16:15"
       }
     ],
     "comment": "",
@@ -23373,9 +23398,9 @@
       {
         "grades": "",
         "instructor": "Hallinan, G / Kulkarni, S",
-        "locations": "",
+        "locations": "219 CHL",
         "number": 1,
-        "times": "A"
+        "times": "TR 14:30 - 15:55"
       }
     ],
     "comment": "",
