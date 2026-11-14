@@ -7640,7 +7640,7 @@
         "instructor": "Kornfield, J",
         "locations": "153 NYS",
         "number": 1,
-        "times": "TR 11:30 - 12:55"
+        "times": "TR 10:30 - 11:55"
       }
     ],
     "comment": "",
@@ -8510,7 +8510,7 @@
       {
         "grades": "PASS-FAIL",
         "instructor": "Gherman, M",
-        "locations": "310 LINDE",
+        "locations": "255 LINDE",
         "number": 3,
         "times": "MWF 10:00 - 10:55\nR 15:00 - 15:55"
       },
@@ -16712,13 +16712,13 @@
     "sections": [
       {
         "grades": "LETTER",
-        "instructor": "George, N",
+        "instructor": "Staff",
         "locations": "104 WAT",
         "number": 1,
         "times": "W 13:00 - 13:55"
       }
     ],
-    "comment": "Open to E&AS students only // maximum enrollment: 20 students // SENIORS ONLY",
+    "comment": "Course Cancelled",
     "units": [
       1,
       0,
@@ -17390,6 +17390,13 @@
         "locations": "104 WAT",
         "number": 1,
         "times": "W 11:00 - 11:55"
+      },
+      {
+        "grades": "LETTER",
+        "instructor": "George, N",
+        "locations": "104 WAT",
+        "number": 2,
+        "times": "W 13:00 - 13:55"
       }
     ],
     "comment": "Open to E&AS students only // maximum enrollment: 20 students // SENIORS ONLY",
@@ -17436,10 +17443,10 @@
     "sections": [
       {
         "grades": "LETTER",
-        "instructor": "Staff",
-        "locations": "",
+        "instructor": "Meyer, V",
+        "locations": "104 WAT",
         "number": 1,
-        "times": "A"
+        "times": "F 10:00 - 10:55"
       }
     ],
     "comment": "Open to E&AS students only // maximum enrollment: 20 students // SENIORS ONLY",
@@ -17562,7 +17569,7 @@
       {
         "grades": "",
         "instructor": "Most, E",
-        "locations": "310 LINDE",
+        "locations": "107 DWN",
         "number": 1,
         "times": "TR 10:30 - 11:55"
       }
@@ -24243,10 +24250,10 @@
         "instructor": "Meiron, D",
         "locations": "390 FIR",
         "number": 1,
-        "times": "MWF 16:00 - 16:55"
+        "times": "MWF 11:00 - 11:55"
       }
     ],
-    "comment": "OM for Monday, January 5 at 4 PM in 115 Gates-Thomas",
+    "comment": "",
     "units": [
       3,
       0,
