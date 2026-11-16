@@ -10374,6 +10374,38 @@
     "true_units": "",
     "link": ""
   },
+  "805513745": {
+    "id": 805513745,
+    "name": "Real-World Algorithm Implementation",
+    "number": "CS 137",
+    "sections": [
+      {
+        "grades": "LETTER",
+        "instructor": "Blank, A",
+        "locations": "104 ANB",
+        "number": 1,
+        "times": "OM,M 20:00 - 20:55"
+      },
+      {
+        "grades": "",
+        "instructor": "Mazumdar, E",
+        "locations": "105 ANB",
+        "number": 1,
+        "times": "MWF 14:30 - 15:55"
+      }
+    ],
+    "comment": "Prerequisites: CS 24 // by instructor permission only",
+    "units": [
+      0,
+      3,
+      9
+    ],
+    "description": "This course introduces algorithms in the context of their usage in the real world. The course covers compression, semi-numerical algorithms, RSA cryptography, parsing, and string matching. The goal of the course is for students to see how to use theoretical algorithms in real-world contexts, focusing both on correctness and the nitty-gritty details and optimizations. Students will choose to implement projects based on depth in an area or breadth to cover all the topics.",
+    "prerequisites": "CS 24 // by instructor permission only",
+    "rating": "3.92 +/- 1.15",
+    "true_units": "3",
+    "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=47&term_id=548&division_id=80425&department_id=117&offering_id=87197&track_id=87197-Default"
+  },
   "811263246": {
     "id": 811263246,
     "name": "Introduction to Chinese",
@@ -11929,13 +11961,13 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Blank, A",
+        "instructor": "Staff",
         "locations": "104 ANB",
         "number": 1,
         "times": "OM,M 20:00 - 20:55"
       }
     ],
-    "comment": "OM Monday, January 4 at 8:00 PM in 104 ANB",
+    "comment": "Course Cancelled",
     "units": [
       3,
       6,
@@ -13622,6 +13654,13 @@
         "locations": "",
         "number": 25,
         "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Humml, J",
+        "locations": "",
+        "number": 26,
+        "times": "A"
       }
     ],
     "comment": "",
@@ -13772,13 +13811,6 @@
         "locations": "",
         "number": 1,
         "times": "A"
-      },
-      {
-        "grades": "",
-        "instructor": "Mazumdar, E",
-        "locations": "105 ANB",
-        "number": 1,
-        "times": "MWF 14:30 - 15:55"
       }
     ],
     "comment": "",
