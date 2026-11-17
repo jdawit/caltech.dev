@@ -347,6 +347,13 @@
       },
       {
         "grades": "PASS-FAIL",
+        "instructor": "Patke, A",
+        "locations": "",
+        "number": 15,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
         "instructor": "Dickinson, M",
         "locations": "",
         "number": 16,
@@ -6562,6 +6569,13 @@
         "locations": "",
         "number": 14,
         "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Zernicka-Goetz, M",
+        "locations": "",
+        "number": 15,
+        "times": "A"
       }
     ],
     "comment": "",
@@ -8062,6 +8076,13 @@
         "instructor": "Goentoro, L",
         "locations": "",
         "number": 45,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Zernicka-Goetz, M",
+        "locations": "",
+        "number": 46,
         "times": "A"
       },
       {
@@ -18528,6 +18549,13 @@
       },
       {
         "grades": "PASS-FAIL",
+        "instructor": "Datta, S",
+        "locations": "",
+        "number": 43,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
         "instructor": "Van Valen, D",
         "locations": "",
         "number": 44,
@@ -24329,7 +24357,7 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Porter, F",
+        "instructor": "Darkwah Oppong, N / Refael, G",
         "locations": "107 DWN",
         "number": 1,
         "times": "MWF 10:00 - 10:55"
