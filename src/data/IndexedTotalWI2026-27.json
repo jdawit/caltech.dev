@@ -3789,9 +3789,9 @@
       {
         "grades": "PASS-FAIL",
         "instructor": "George, G / Refael, G",
-        "locations": "B101 BBB\nB101 BBB\nB157 CRL",
+        "locations": "B101 BBB\nB101 BBB\nB101 BBB",
         "number": 1,
-        "times": "MWR 11:00 - 11:55\nM 15:00 - 15:55\nF 09:00 - 10:55"
+        "times": "MWF 10:00 - 10:55\nW 15:00 - 15:55\nR 14:30 - 16:25"
       }
     ],
     "comment": "",
@@ -6730,7 +6730,7 @@
         "instructor": "Graber, T / Gherman, M",
         "locations": "B101 BBB\nB101 BBB",
         "number": 1,
-        "times": "MWF 13:00 - 13:55\nR 15:00 - 15:55"
+        "times": "MWF 11:00 - 11:55\nR 09:00 - 09:55"
       }
     ],
     "comment": "",
@@ -8707,6 +8707,13 @@
         "locations": "",
         "number": 58,
         "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Fianu, I",
+        "locations": "",
+        "number": 59,
+        "times": "A"
       }
     ],
     "comment": "If your research advisor does not appear below, please contact the Office of the Registrar.",
@@ -9139,7 +9146,7 @@
         "instructor": "Jahner, J",
         "locations": "B101 BBB",
         "number": 1,
-        "times": "R 09:00 - 10:25"
+        "times": "R 10:30 - 11:55"
       }
     ],
     "comment": "",
@@ -10877,9 +10884,9 @@
       {
         "grades": "",
         "instructor": "Hopkins, P",
-        "locations": "Hameetman Aud CHL",
+        "locations": "219 CHL",
         "number": 1,
-        "times": "MW 10:30 - 11:55"
+        "times": "TR 09:00 - 10:25"
       }
     ],
     "comment": "",
@@ -11276,7 +11283,7 @@
         "times": "MWF 14:30 - 15:55"
       }
     ],
-    "comment": "Prerequisites: CS 24 // by instructor permission only",
+    "comment": "Prerequisites: CS 24 // by instructor permission only // form:https://docs.google.com/forms/d/e/1FAIpQLScJH- YQ9aC5mozI5GaOHaMHN_Shjgoakk6Mbj2R5zZpOCo- 9Q/viewform?usp=publish-editor",
     "units": [
       0,
       3,
@@ -11298,7 +11305,7 @@
         "instructor": "Wang, P",
         "locations": "",
         "number": 1,
-        "times": "TR 09:00 - 10:25"
+        "times": "MW 13:00 - 14:25"
       }
     ],
     "comment": "",
@@ -11551,7 +11558,7 @@
         "instructor": "Jalloh, M",
         "locations": "",
         "number": 1,
-        "times": "TR 14:00 - 15:55"
+        "times": "TR 14:00 - 15:25"
       }
     ],
     "comment": "",
@@ -12085,9 +12092,9 @@
       {
         "grades": "PASS-FAIL",
         "instructor": "Rees, D / Blake, G",
-        "locations": "B101 BBB\nB101 BBB\nB157 CRL",
+        "locations": "B101 BBB\nB101 BBB\n222 RSC",
         "number": 1,
-        "times": "MW 09:00 - 09:55\nW 10:00 - 10:55\nR 19:00 - 20:55"
+        "times": "MW 09:00 - 09:55\nM 16:00 - 16:55\nT 09:00 - 11:55"
       }
     ],
     "comment": "",
@@ -12226,6 +12233,13 @@
         "instructor": "Hong, E",
         "locations": "",
         "number": 1,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Bronner Hansen, M",
+        "locations": "",
+        "number": 2,
         "times": "A"
       }
     ],
@@ -18670,9 +18684,9 @@
       {
         "grades": "PASS-FAIL",
         "instructor": "Asimow, P",
-        "locations": "B101 BBB",
+        "locations": "B101 BBB\nB101 BBB",
         "number": 1,
-        "times": "T 19:00 - 19:55"
+        "times": "F 09:00 - 09:55\nW 16:00 - 16:55"
       }
     ],
     "comment": "",
@@ -23328,7 +23342,7 @@
     "number": "CS/IDS 153",
     "sections": [
       {
-        "grades": "",
+        "grades": "PASS-FAIL",
         "instructor": "Wu, K",
         "locations": "104 ANB",
         "number": 1,
@@ -23665,7 +23679,7 @@
         "instructor": "Wang, P",
         "locations": "",
         "number": 1,
-        "times": "OM,T 10:30 - 11:25"
+        "times": "OM,M 14:30 - 15:25"
       }
     ],
     "comment": "Prerequisites: L 171 abc, L 172 abc or equivalent.",
@@ -24749,7 +24763,7 @@
         "instructor": "Marandi, A",
         "locations": "B270 MRE",
         "number": 1,
-        "times": "MW 10:30 - 11:55"
+        "times": "MW 09:30 - 10:55"
       }
     ],
     "comment": "",
@@ -25458,9 +25472,9 @@
       {
         "grades": "PASS-FAIL",
         "instructor": "Newman, D / Bois, J",
-        "locations": "B101 BBB\nB101 BBB\nB157 CRL",
+        "locations": "B101 BBB\nB101 BBB\nB101 BBB",
         "number": 1,
-        "times": "M 10:00 - 10:55\nW 15:00 - 15:55\nF 11:00 - 11:55"
+        "times": "M 15:00 - 15:55\nT 16:00 - 16:55\nR 16:30 - 17:25"
       }
     ],
     "comment": "",
