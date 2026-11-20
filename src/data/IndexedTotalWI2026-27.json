@@ -319,7 +319,7 @@
       },
       {
         "grades": "PASS-FAIL",
-        "instructor": "Bronner Hansen, M",
+        "instructor": "Bronner, M",
         "locations": "",
         "number": 11,
         "times": "A"
@@ -1946,7 +1946,7 @@
       },
       {
         "grades": "PASS-FAIL",
-        "instructor": "Bronner Hansen, M",
+        "instructor": "Bronner, M",
         "locations": "",
         "number": 5,
         "times": "A"
@@ -2110,6 +2110,13 @@
         "instructor": "Chan, D",
         "locations": "",
         "number": 28,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Bollu, T",
+        "locations": "",
+        "number": 29,
         "times": "A"
       },
       {
@@ -3036,9 +3043,9 @@
       {
         "grades": "",
         "instructor": "Tejada Lara, J / Kirschvink, J",
-        "locations": "251 ARM\n251 ARM",
+        "locations": "251 ARM",
         "number": 1,
-        "times": "MWF 14:00 - 14:55\nTR 13:00 - 14:25"
+        "times": "TR 13:00 - 14:25"
       }
     ],
     "comment": "taught concurrently with Ge 104",
@@ -3226,6 +3233,13 @@
         "instructor": "Pachter, L",
         "locations": "",
         "number": 10,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Bollu, T",
+        "locations": "",
+        "number": 11,
         "times": "A"
       },
       {
@@ -7731,7 +7745,7 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Voorhees, R",
+        "instructor": "Voorhees, P",
         "locations": "104 WAT",
         "number": 1,
         "times": "TR 10:30 - 11:55"
@@ -8041,9 +8055,9 @@
       {
         "grades": "",
         "instructor": "Eiler, J",
-        "locations": "",
+        "locations": "215 NMD",
         "number": 1,
-        "times": "A"
+        "times": "MWF 14:00 - 14:55"
       }
     ],
     "comment": "",
@@ -8626,7 +8640,7 @@
       },
       {
         "grades": "PASS-FAIL",
-        "instructor": "Bronner Hansen, M",
+        "instructor": "Bronner, M",
         "locations": "",
         "number": 47,
         "times": "A"
@@ -11295,6 +11309,31 @@
     "true_units": "3",
     "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=47&term_id=548&division_id=80425&department_id=117&offering_id=87197&track_id=87197-Default"
   },
+  "805642558": {
+    "id": 805642558,
+    "name": "Senior Research Seminar",
+    "number": "HPS 102 a",
+    "sections": [
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Quartz, S",
+        "locations": "",
+        "number": 1,
+        "times": "A"
+      }
+    ],
+    "comment": "",
+    "units": [
+      0,
+      0,
+      0
+    ],
+    "description": "Offered in any two consecutive terms, by arrangement with HPS faculty. Under the guidance of an HPS faculty member, students will research and write a focused research paper of 15,000 words (approximately 50 pages). Work in the first term will comprise intensive reading in the relevant literature and/or archival or other primary source research. In the second term, students will draft and revise their paper. Open to seniors in the HPS option and to others by special permission of an HPS faculty member.\n Not offered 2025-26.",
+    "prerequisites": "",
+    "rating": "",
+    "true_units": "",
+    "link": ""
+  },
   "811263246": {
     "id": 811263246,
     "name": "Introduction to Chinese",
@@ -12237,7 +12276,7 @@
       },
       {
         "grades": "PASS-FAIL",
-        "instructor": "Bronner Hansen, M",
+        "instructor": "Bronner, M",
         "locations": "",
         "number": 2,
         "times": "A"
@@ -13413,9 +13452,9 @@
       {
         "grades": "",
         "instructor": "Tejada Lara, J / Kirschvink, J",
-        "locations": "251 ARM\n251 ARM",
+        "locations": "251 ARM",
         "number": 1,
-        "times": "MWF 14:00 - 14:55\nTR 13:00 - 14:25"
+        "times": "TR 13:00 - 14:25"
       }
     ],
     "comment": "taught concurrently with Ge 11b",
@@ -16367,7 +16406,7 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Zernicka-Goetz, M / Bronner Hansen, M",
+        "instructor": "Zernicka-Goetz, M / Bronner, M",
         "locations": "100 - Rock Auditorium BRD\n100 - Rock Auditorium BRD",
         "number": 1,
         "times": "M 19:00 - 19:55\nTR 13:00 - 14:25"
@@ -18533,7 +18572,7 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Wu, K",
+        "instructor": "Wu, W",
         "locations": "183 LINDE\n183 LINDE",
         "number": 1,
         "times": "M 11:00 - 11:55\nF 13:00 - 16:55"
@@ -20012,6 +20051,13 @@
         "instructor": "Siapas, A",
         "locations": "",
         "number": 6,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Bollu, T",
+        "locations": "",
+        "number": 7,
         "times": "A"
       },
       {
@@ -21666,7 +21712,7 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Bronner Hansen, M / Rothenberg, E / Zernicka- Goetz, M",
+        "instructor": "Bronner, M / Rothenberg, E / Zernicka-Goetz, M",
         "locations": "100 - Rock Auditorium BRD",
         "number": 1,
         "times": "TR 14:30 - 15:55"
@@ -21779,7 +21825,7 @@
       },
       {
         "grades": "PASS-FAIL",
-        "instructor": "Bronner Hansen, M",
+        "instructor": "Bronner, M",
         "locations": "",
         "number": 11,
         "times": "A"
@@ -22267,7 +22313,7 @@
         "times": "MW 10:00 - 11:25"
       }
     ],
-    "comment": "maximum enrollment: 20 students // Graduate students may not enroll until Add Day",
+    "comment": "maximum enrollment: 20 students // Graduate students may not enroll until Add Day // not repeatable",
     "units": [
       3,
       0,
@@ -26738,7 +26784,7 @@
     "units": [
       1,
       6,
-      2
+      5
     ],
     "description": "Introduction to methods of synthesis, separation, purification, and characterization used routinely in chemical research laboratories. Ch 4 a focuses on the synthesis and analysis of organic molecules; Ch 4 b focuses on the synthesis and analysis of inorganic and organometallic molecules. Ch 4 a, second term; Ch 4 b, third term.",
     "prerequisites": "Ch 1 (or the equivalent) and Ch 3 a or Ch 3 x. Ch 4 a is a prerequisite for Ch 4 b. Previous or concurrent enrollment in Ch 41 is strongly recommended.",
