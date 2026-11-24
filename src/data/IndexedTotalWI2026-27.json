@@ -1096,7 +1096,7 @@
       },
       {
         "grades": "PASS-FAIL",
-        "instructor": "Staff",
+        "instructor": "Ng, N",
         "locations": "",
         "number": 7,
         "times": "A"
@@ -13296,6 +13296,13 @@
       },
       {
         "grades": "PASS-FAIL",
+        "instructor": "Ng, N",
+        "locations": "",
+        "number": 32,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
         "instructor": "Tirrell, D",
         "locations": "",
         "number": 36,
@@ -21053,7 +21060,7 @@
         "times": "A"
       }
     ],
-    "comment": "16 students per section / Sec 3 reserved for First-Years // Instructor permission required to enroll after first week / Must take Ch3 in their first 6 terms to be graded P/F",
+    "comment": "16 students per section / Evening section reserved for First-Years // Instructor permission required to enroll after first week / Must take Ch3 in their first 6 terms to be graded P/F",
     "units": [
       1,
       3,
@@ -21243,7 +21250,7 @@
     "sections": [
       {
         "grades": "PASS-FAIL",
-        "instructor": "Staff",
+        "instructor": "Brown, W",
         "locations": "",
         "number": 1,
         "times": "A"
@@ -26831,6 +26838,13 @@
         "locations": "275 RSC\n222 RSC",
         "number": 1,
         "times": "OM,M 12:00 - 12:55\nTR 13:00 - 15:55"
+      },
+      {
+        "grades": "",
+        "instructor": "Mendez, J",
+        "locations": "275 RSC\n222 RSC",
+        "number": 2,
+        "times": "OM,M 12:00 - 12:55\nTR 08:00 - 10:55"
       }
     ],
     "comment": "max enroll: 14 students",
