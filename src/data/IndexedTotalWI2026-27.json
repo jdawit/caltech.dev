@@ -2546,7 +2546,7 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Simons, M",
+        "instructor": "Gurnis, M",
         "locations": "162 SMD",
         "number": 1,
         "times": "MWF 09:00 - 09:55"
@@ -6975,6 +6975,20 @@
         "locations": "",
         "number": 15,
         "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Ismagilov, R",
+        "locations": "",
+        "number": 16,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Taboada, C",
+        "locations": "",
+        "number": 17,
+        "times": "A"
       }
     ],
     "comment": "",
@@ -7095,6 +7109,31 @@
     "rating": "4.27 +/- 0.74",
     "true_units": "About Right",
     "link": "https://access.caltech.edu/tqfr/reports/show_report?survey_id=58&term_id=559&division_id=80427&department_id=151&offering_id=95862&track_id=95862-Default"
+  },
+  "508564273": {
+    "id": 508564273,
+    "name": "Senior Thesis in Bioengineering",
+    "number": "BE 99 c",
+    "sections": [
+      {
+        "grades": "LETTER",
+        "instructor": "Demirer, G",
+        "locations": "",
+        "number": 1,
+        "times": "A"
+      }
+    ],
+    "comment": "",
+    "units": [
+      0,
+      0,
+      0
+    ],
+    "description": "Research in Bioengineering, supervised by a Caltech faculty member, culminating in a thesis. The topic is determined by the research adviser and the student and is subject to approval by the Bioengineering faculty. The first and second terms are taken pass/fail and require a written report at the end of each term. The third term is taken on grades and requires completion of a thesis and final presentation. The last two terms must be completed in the final year of study. Total units arranged with the advising faculty member.",
+    "prerequisites": "Junior or senior standing and instructor's permission.",
+    "rating": "",
+    "true_units": "",
+    "link": ""
   },
   "508920540": {
     "id": 508920540,
@@ -7478,6 +7517,13 @@
         "instructor": "Gkioxari, G",
         "locations": "",
         "number": 27,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Lin, L",
+        "locations": "",
+        "number": 28,
         "times": "A"
       }
     ],
@@ -8727,6 +8773,13 @@
         "instructor": "Fianu, I",
         "locations": "",
         "number": 59,
+        "times": "A"
+      },
+      {
+        "grades": "PASS-FAIL",
+        "instructor": "Taboada, C",
+        "locations": "",
+        "number": 60,
         "times": "A"
       }
     ],
@@ -11577,9 +11630,9 @@
     ],
     "comment": "Instructor permission required prior to registering",
     "units": [
-      2,
       0,
-      10
+      0,
+      0
     ],
     "description": "Offered in any two consecutive terms, by arrangement with HPS faculty. Under the guidance of an HPS faculty member, students will research and write a focused research paper of 15,000 words (approximately 50 pages). Work in the first term will comprise intensive reading in the relevant literature and/or archival or other primary source research. In the second term, students will draft and revise their paper. Open to seniors in the HPS option and to others by special permission of an HPS faculty member.\n Not offered 2025-26.",
     "prerequisites": "",
@@ -12599,7 +12652,7 @@
     "sections": [
       {
         "grades": "",
-        "instructor": "Simons, M",
+        "instructor": "Gurnis, M",
         "locations": "162 SMD",
         "number": 1,
         "times": "MWF 09:00 - 09:55"
@@ -13475,11 +13528,11 @@
     "number": "Ge 116",
     "sections": [
       {
-        "grades": "LETTER",
+        "grades": "",
         "instructor": "Jackson, J / Asimow, P / Magyar, J / Ma, C / Dalleska, N / Takase, M",
         "locations": "251 ARM",
         "number": 1,
-        "times": "T 14:00 - 14:55"
+        "times": "T 11:00 - 11:55"
       }
     ],
     "comment": "Lab- 4 hours per week, scheduling will vary over the quarter",
@@ -24283,7 +24336,7 @@
       },
       {
         "grades": "PASS-FAIL",
-        "instructor": "Staff",
+        "instructor": "Vahala, K",
         "locations": "",
         "number": 18,
         "times": "A"
